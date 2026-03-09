@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NIVAA GLOBAL - Premium Cotton Export Platform
 
-## Getting Started
+NIVAA GLOBAL is a professional B2B export platform designed for a leading textile export company based in Maharashtra, India. The application features a high-performance public storefront and a robust administrative CMS for managing products, inquiries, and site content.
 
-First, run the development server:
+## 🚀 Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Public Website
+- **Dynamic Product Catalog**: Showcases premium cotton garments with detailed specifications (GSM, Fabric, MOQ).
+- **Inquiry System**: Dual-email notification system (Admin & User) for bulk export requests.
+- **Photo Gallery**: High-performance gallery with Cloudinary auto-optimization.
+- **About & Certifications**: Dynamic sections for company story, leadership (Founder), and compliance.
+- **Inquiry Popup**: Intelligent lead generation popup with dynamic admin controls.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop viewports.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Admin Panel (CMS)
+- **Product Management**: Create, edit, and delete products with multi-image support.
+- **Inquiry Dashboard**: Track and manage bulk leads with status filtering.
+- **Global Settings**: Control SEO, Hero sections, Founder details, and contact info.
+- **Email Templates**: Fully customizable templates for automated admin and user notifications.
+- **Gallery Management**: Bulk upload and optimize images directly via Cloudinary integration.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Technology Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [Shadcn UI](https://ui.shadcn.com/)
+- **Database**: [Firebase Firestore](https://firebase.google.com/docs/firestore)
+- **Authentication**: [Firebase Auth](https://firebase.google.com/docs/auth)
+- **Image CMS**: [Cloudinary](https://cloudinary.com/)
+- **Email Service**: [Resend](https://resend.com/)
+- **Forms & Validation**: React Hook Form + Zod
 
-## Learn More
+## 📦 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
+- Node.js 18+
+- Firebase Project
+- Cloudinary Account
+- Resend API Key
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nivaa-global/nivaaglobal.git
+   ```
 
-## Deploy on Vercel
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Setup environment variables:
+   Create a `.env.local` file in the root directory and add your credentials (refer to `.env.example`).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 🏗️ Deployment
+
+The project is optimized for deployment on **Vercel**. Connect your GitHub repository to Vercel, import the environment variables, and it will deploy automatically.
+
+---
+
+## 👨‍💻 Developed By
+
+This project was developed with excellence by **SoftVue Technology**.
+
+**Lead Developer:** Shivam Kaware
+**Contact:** [+91 9921076909](tel:+919921076909)
+**Website:** [softvuetechnology.in](https://softvuetechnology.in)
+
+> "Innovating the future of digital exports." 🚀
