@@ -24,10 +24,10 @@ const defaultSettings = {
         { title: "Quality Certified", description: "OEKO-TEX, ISO 9001 certified production" },
     ] as WhyChoosePoint[],
     stats: [
-        { label: "Years Experience", value: "10+" },
-        { label: "Countries Exported", value: "25+" },
-        { label: "Happy Clients", value: "500+" },
-        { label: "Products Delivered", value: "1M+" },
+        { label: "Years Experience", value: "01+" },
+        // { label: "Countries Exported", value: "25+" },
+        // { label: "Happy Clients", value: "500+" },
+        // { label: "Products Delivered", value: "1M+" },
     ] as StatItem[],
 };
 
