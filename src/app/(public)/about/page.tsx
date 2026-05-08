@@ -16,10 +16,10 @@ export const metadata = generatePageMetadata({
 export const revalidate = 3600;
 
 const defaultStats: StatItem[] = [
-    { label: "Countries Served", value: "25+" },
-    { label: "B2B Clients", value: "500+" },
-    { label: "Production Capacity", value: "50K+/mo" },
-    { label: "Years of Export", value: "10+" },
+    // { label: "Countries Served", value: "25+" },
+    // { label: "B2B Clients", value: "500+" },
+    // { label: "Production Capacity", value: "50K+/mo" },
+    // { label: "Years of Export", value: "10+" },
 ];
 
 const statIcons = [Globe, Users, Factory, TrendingUp];
